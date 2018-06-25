@@ -1,0 +1,81 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+	<!--div id="text-area-container">
+		<textarea id="text-area">ほお屋区保けゃ日御せひうそゃまにれふろす派模列鵜手舳けになはちとハニウてろそや個野保津そまし瀬そみらろ無譜すな尾んちあまあくゆ雲鵜日以日素列差瀬ネヒイ野知御尾夜個こ。ほえ差夜日離素瀬日氏くすあウオンテろしせいゅ露等夜絵っくた派目。</textarea>
+	</div-->
+
+	<div id="title">
+		Shadow Assistant<span id="red-circle">●</span>
+	</div>
+
+	<div class="sub-title">
+		Source
+	</div>
+
+	<div class="sub-title">
+		Voice
+	</div>
+
+		<div id="audio-container">
+			<div id="upload-audio">
+				<input type="file" id="file-upload"/>
+				<div><audio id="sound" controls></audio></div>
+				<div class="slidecontainer">
+  					<input type="range" min="-8" max="8" value="0" class="slider" id="speed-slider">
+  					<br>
+  					<span id=curr_speed>Speed: Original</span>
+				</div>
+				
+			</div>
+			<div id="record-audio">
+				<button id="record-btn">record</button>
+				<button id="stop-btn">stop</button>
+				<div id="recording-container">
+					<audio id="recording" controls></audio>
+				</div>
+				<div class="slidecontainer">
+  					<input type="range" min="-20" max="80" value="20" class="slider" id="offset-slider">
+  					<br>
+  					<span id=curr_offset>Offset: +0.1s</span>
+				</div>
+
+			</div>
+		</div>
+
+		<div>
+			<button id="play-all-btn">Play All</button>
+			<button id="pause-all-btn">Pause All</button>
+			<button id="stop-all-btn">Stop All</button>
+		</div>
+		<div id="sliders-container">
+			<div class="slidecontainer">
+  					<input type="range" orient="vertical" min="-20" max="0" value="0" class="slider" id="upload-volume-slider">
+  					<br>
+  					LVolume
+  					
+			</div>
+
+				<div class="slidecontainer">
+  					<input type="range" orient="vertical" min="-20" max="0" value="0" class="slider" id="record-volume-slider">
+  					<br>
+  					RVolume
+  					
+				</div>
+
+		</div>
+		
+	
+
+<!--div id="shortcuts">
+keyboard shortucts:<br>
+pause/play - space<br>
+rewind 2s - a<br>
+forward 2s - d<br>
+speed down - s<br>
+speed up - w <br>
+</div-->
+

@@ -1,0 +1,109 @@
+#audio-container {
+	border:1px solid black;
+	overflow:auto;
+	margin-bottom: 2%;
+
+}
+
+#upload-audio {
+	border: 1px solid grey;
+	background-color: #e4efe1;
+	width: 50%;
+	float:left;
+	display: inline-block;
+}
+
+#red-circle {
+	font-size: 40px;
+	margin-left: 1%;
+	margin-top:0;
+	color: red;
+}
+
+#audio-container div * {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.sub-title {
+	font-size: 20px;
+	float:left;
+	width:50%;
+	text-align:center;
+}
+
+#title {
+	font-size: 50px;
+	text-align: center;
+}
+
+#sliders-container {
+	margin-top:1%;
+}
+
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;
+}
+
+.slidecontainer {
+	float:center;
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+
+#record-audio {
+	border: 1px solid grey;
+	background-color: #efe7e1;
+	width:50%;
+	float:left;
+	min-height: 10%;
+}
+
+
+@font-face {
+    font-family: "AppliMincho";
+    src: url("fonts/applimincho.otf") format("opentype");
+}
+
+
+#text-area-container {
+	margin-top:2%;
+	height:75%;
+}
+
+#text-area {
+	background-color: #fcfcfc;
+	border: 1px solid black;
+	width:90%;
+	height:95%;
+	font-size: 36px;
+    font-family: "AppliMincho";
+}
+
+body {
+	text-align: center;
+
+}
+
+
+
+#slide-container {
+	margin-top:5%;
+	display:block;
+}
+
+
+audio {
+	min-width: 100%;
+}
+
+body {
+	background-color: #fcfcfc;
+}
